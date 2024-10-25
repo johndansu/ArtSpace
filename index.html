@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArtSpace</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">ArtSpace</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <!-- Navigation Links -->
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="artist_profile.html">Artists</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="gallery_list.html">Galleries</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Forums</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">What's New</a>
+                </li>
+                <!-- <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Related
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Related Item 1</a>
+                        <a class="dropdown-item" href="#">Related Item 2</a>
+                        <a class="dropdown-item" href="#">Related Item 3</a>
+                    </div>
+                </li> -->
+            </ul>
+    
+            <!-- Correctly placed search form -->
+            <form class="form-inline my-2 my-lg-0 mx-lg-auto">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <!-- <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button> -->
+            </form>
+    
+            <!-- Login and Sign Up buttons -->
+            <ul class="navbar-nav ml-3">
+                <li class="nav-item">
+                    <a class="btn btn-outline-dark" href="login.html">Login</a>
+                </li>
+                <li class="nav-item ml-2">
+                    <a class="btn btn-outline-dark" href="signup.html">Sign Up</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    
+    <div class="container mt-4">
+        <!-- Carousel -->
+        <div id="artspaceCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row no-gutters">
+                        <div class="col-md-6 carousel-image">
+                            <img src="images/1.jpg" class="d-block w-100" alt="Image 1">
+                        </div>
+                        <div class="col-md-6 carousel-text d-flex align-items-center justify-content-center">
+                            <div>
+                                <h5>Title for Slide 1</h5>
+                                <p>Description for Slide 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row no-gutters">
+                        <div class="col-md-6 carousel-image">
+                            <img src="images/2.jpg" class="d-block w-100" alt="Image 2">
+                        </div>
+                        <div class="col-md-6 carousel-text d-flex align-items-center justify-content-center">
+                            <div>
+                                <h5>Title for Slide 2</h5>
+                                <p>Description for Slide 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row no-gutters">
+                        <div class="col-md-6 carousel-image">
+                            <img src="images/9.jpg" class="d-block w-100" alt="Image 3">
+                        </div>
+                        <div class="col-md-6 carousel-text d-flex align-items-center justify-content-center">
+                            <div>
+                                <h5>Title for Slide 3</h5>
+                                <p>Description for Slide 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row no-gutters">
+                        <div class="col-md-6 carousel-image">
+                            <img src="images/10.jpg" class="d-block w-100" alt="Image 4">
+                        </div>
+                        <div class="col-md-6 carousel-text d-flex align-items-center justify-content-center">
+                            <div>
+                                <h5>Title for Slide 4</h5>
+                                <p>Description for Slide 4. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row no-gutters">
+                        <div class="col-md-6 carousel-image">
+                            <img src="images/11.jpg" class="d-block w-100" alt="Image 5">
+                        </div>
+                        <div class="col-md-6 carousel-text d-flex align-items-center justify-content-center">
+                            <div>
+                                <h5>Title for Slide 5</h5>
+                                <p>Description for Slide 5. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row no-gutters">
+                        <div class="col-md-6 carousel-image">
+                            <img src="images/12.jpg" class="d-block w-100" alt="Image 6">
+                        </div>
+                        <div class="col-md-6 carousel-text d-flex align-items-center justify-content-center">
+                            <div>
+                                <h5>Title for Slide 6</h5>
+                                <p>Description for Slide 6. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#artspaceCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#artspaceCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- Featured Posts Section -->
+    <div class="container mt-5">
+        <h2 class="text-center">Featured Posts</h2>
+        <div class="scrolling-wrapper d-flex flex-row flex-nowrap mt-4 pb-4 pt-2">
+            <div class="card flex-grow-1 mx-2">
+                <img src="images/5.jpg" class="card-img-top" alt="Post Image 1">
+                <div class="card-body d-flex flex-column align-items-center">
+                    <h5 class="card-title">Post Title 1</h5>
+                    <p class="card-text">Short description for Post 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p class="card-meta">
+                        <span class="author">by Maggie Cole</span> | 
+                        <span class="date">Jan 1, 2024</span>
+                    </p>
+                    <div class="categories mb-2">
+                        <span class="badge ">Painting</span>
+                        <span class="badge badge-secondary">Abstract</span>
+                    </div>
+                    <button class="btn btn-outline-dark mt-auto" data-toggle="modal" data-target="#postModal1">View Details</button>
+                </div>
+            </div>
+            <div class="card flex-grow-1 mx-2">
+                <img src="images/6.jpg" class="card-img-top" alt="Post Image 2">
+                <div class="card-body d-flex flex-column align-items-center">
+                    <h5 class="card-title">Post Title 2</h5>
+                    <p class="card-text">Short description for Post 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p class="card-meta">
+                        <span class="author">by Marty Baker</span> | 
+                        <span class="date">Feb 15, 2024</span>
+                    </p>
+                    <div class="categories mb-2">
+                        <span class="badge ">Sculpture</span>
+                        <span class="badge badge-secondary">Modern</span>
+                    </div>
+                    <button class="btn btn-outline-dark mt-auto" data-toggle="modal" data-target="#postModal2">View Details</button>
+                </div>
+            </div>
+            <div class="card flex-grow-1 mx-2">
+                <img src="images/7.jpg" class="card-img-top" alt="Post Image 3">
+                <div class="card-body d-flex flex-column align-items-center">
+                    <h5 class="card-title">Post Title 3</h5>
+                    <p class="card-text">Short description for Post 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p class="card-meta">
+                        <span class="author">by Tommy Bush</span> | 
+                        <span class="date">Feb 20, 2024</span>
+                    </p>
+                    <div class="categories mb-2">
+                        <span class="badge ">Installation</span>
+                        <span class="badge badge-secondary">Contemporary</span>
+                    </div>
+                    <button class="btn btn-outline-dark mt-auto" data-toggle="modal" data-target="#postModal3">View Details</button>
+                </div>
+            </div>
+            <div class="card flex-grow-1 mx-2">
+                <img src="images/8.jpg" class="card-img-top" alt="Post Image 4">
+                <div class="card-body d-flex flex-column align-items-center">
+                    <h5 class="card-title">Post Title 4</h5>
+                    <p class="card-text">Short description for Post 4. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p class="card-meta">
+                        <span class="author">by Tara Marks</span> | 
+                        <span class="date">Mar 1, 2024</span>
+                    </p>
+                    <div class="categories mb-2">
+                        <span class="badge ">Photography</span>
+                        <span class="badge badge-secondary">Landscape</span>
+                    </div>
+                    <button class="btn btn-outline-dark mt-auto" data-toggle="modal" data-target="#postModal4">View Details</button>
+                </div>
+            </div>
+            <div class="card flex-grow-1 mx-2">
+                <img src="images/10.jpg" class="card-img-top" alt="Post Image 5">
+                <div class="card-body d-flex flex-column align-items-center">
+                    <h5 class="card-title">Post Title 5</h5>
+                    <p class="card-text">Short description for Post 5. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p class="card-meta">
+                        <span class="author">by Bobby Craig</span> | 
+                        <span class="date">Mar 10, 2024</span>
+                    </p>
+                    <div class="categories mb-2">
+                        <span class="badge ">Mixed Media</span>
+                        <span class="badge badge-secondary">Expressionism</span>
+                    </div>
+                    <button class="btn btn-outline-dark mt-auto" data-toggle="modal" data-target="#postModal5">View Details</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Post 1 -->
+    <div class="modal fade" id="postModal1" tabindex="-1" role="dialog" aria-labelledby="postModal1Label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="postModal1Label">Post Title 1</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="images/5.jpg" class="img-fluid" alt="Post Image 1">
+                    <p>Detailed description for Post 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Post 2 -->
+    <div class="modal fade" id="postModal2" tabindex="-1" role="dialog" aria-labelledby="postModal2Label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="postModal2Label">Post Title 2</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="images/6.jpg" class="img-fluid" alt="Post Image 2">
+                    <p>Detailed description for Post 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Post 3 -->
+    <div class="modal fade" id="postModal3" tabindex="-1" role="dialog" aria-labelledby="postModal3Label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="postModal3Label">Post Title 3</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="images/7.jpg" class="img-fluid" alt="Post Image 3">
+                    <p>Detailed description for Post 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Post 4 -->
+    <div class="modal fade" id="postModal4" tabindex="-1" role="dialog" aria-labelledby="postModal4Label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="postModal4Label">Post Title 4</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="images/8.jpg" class="img-fluid" alt="Post Image 4">
+                    <p>Detailed description for Post 4. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Post 5 -->
+    <div class="modal fade" id="postModal5" tabindex="-1" role="dialog" aria-labelledby="postModal5Label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="postModal5Label">Post Title 5</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="images/10.jpg" class="img-fluid" alt="Post Image 5">
+                    <p>Detailed description for Post 5. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>

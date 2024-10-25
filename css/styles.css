@@ -1,0 +1,181 @@
+/* General */
+body {
+    font-family: 'Roboto', sans-serif; /* Updated font */
+}
+
+/* Navbar */
+.navbar .form-inline {
+    border-radius: 20px;
+    width: 100%;
+    max-width: 800px;
+    height: 70px;
+    margin-top: 10px;
+}
+
+@media (max-width: 991.98px) {
+    .navbar .form-inline {
+        width: 100%;
+    }
+}
+
+.form-inline .form-control {
+    border-radius: 20px;
+    width: 100%;
+    height: 40px;
+}
+
+.btn-login, .btn-signup {
+    border-radius: 20px;
+    margin-left: 10px;
+    padding: 5px 15px;
+    color: #000;
+    border: 1px solid #000;
+}
+
+.btn-login {
+    background-color: transparent;
+}
+
+.btn-login:hover {
+    background-color: grey;
+    color: #fff;
+}
+
+.btn-signup {
+    background-color: transparent;
+    color: #fff;
+}
+
+.btn-signup:hover {
+    background-color: grey;
+}
+
+/* Profile */
+.profile img {
+    max-width: 100%;
+    height: auto;
+}
+
+.profile .card {
+    border: none;
+}
+
+.profile .card-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+/* Carousel */
+.carousel-inner {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.carousel-image img {
+    width: 100%;
+    height: 600px; /* Set the fixed height */
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+}
+
+.carousel-text {
+    background-color: #f8f9fa; /* Light background for text side */
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.carousel-text h5 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.carousel-text p {
+    font-size: 1rem;
+    color: #6c757d; /* Grey color for text */
+}
+
+/* Featured Cards */
+.card {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+}
+
+/* Center Featured Post Text */
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+}
+
+
+.card-title {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    font-weight: 700; /* Bold for titles */
+}
+
+.card-text {
+    font-size: 0.95rem;
+    margin-bottom: 15px;
+    font-weight: 400; /* Regular for descriptions */
+}
+
+.card-meta {
+    font-size: 0.85rem;
+    color: #6c757d;
+    margin-bottom: 15px;
+}
+
+.card-meta .author {
+    font-weight: bold;
+}
+
+.btn-outline-dark {
+    border: 1px solid #000;
+    color: #000;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.btn-outline-dark:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.categories .badge {
+    margin-right: 5px;
+}
+
+/* Modal Image */
+.modal-body img {
+    width: 100%;
+    height: auto;
+}
+
+/* Scrollable Featured Posts Section */
+.scrolling-wrapper {
+    overflow-x: scroll;
+    flex-wrap: nowrap;
+}
+
+.scrolling-wrapper .card {
+    min-width: 300px;
+    margin-right: 15px;
+}
